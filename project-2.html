@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Mart Web Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Shaik Ismail</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">SHAIK ISMAIL</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="project-details">
+        <h2 class="title">GROCERY MART WEB APPLICATION</h2>
+        <p class="section_text_p1">A detailed overview of Project</p>
+
+        <div class="main-image"><img src="./assets/grocery_mart_dashboard.png" alt="Grocery Mart Dashboard" class="project-img"></div>
+        <p>This web application streamlines grocery shopping by providing an online marketplace where users can browse, filter, and purchase groceries with ease. It also enables store owners to manage inventory efficiently.</p>
+        <br>
+        <h3>Key Features:</h3>
+        <ul class="features">
+            <li>✅ User authentication and role-based access</li>
+            <li>✅ Product catalog with advanced filtering</li>
+            <li>✅ Secure online payments</li>
+            <li>✅ Admin dashboard for inventory management</li>
+        </ul>
+        <br>
+        <h3>Technologies Used:</h3>
+        <ul>
+            <li>Frontend: HTML, CSS, JavaScript, Bootstrap</li>
+            <li>backend: Python,Django</li>
+            <li>Database: SQL</li>
+        </ul>
+        <br>
+        <h1 style="text-align: center;">Image Gallery</h3><br>
+            <div class="image-gallery">
+            <img src="./assets/product-catalog.png" alt="Product Catalog">
+            <img src="./assets/login.png" alt="Login Page">
+            <img src="./assets/admin-dash.png" alt="Admin Dashboard">
+            <img src="./assets/orders.png" alt="Order Details">
+        </div>
+        <br>
+        <div class="btn-container">
+            <a href="https://github.com/Ismailshaik0906/Django_Grocery_Mart" target="_blank"><button class="btn btn-color-2">View on GitHub</button></a>
+            <a href="index.html#projects"><button class="btn btn-color-1">Back to Projects</button></a>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon">
+                <p><a href="mailto:sk.ismail0906@gmail.com">sk.ismail0906@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="Linkedin icon" class="icon contact-icon">
+                <p><a href="https://linkedin.com/in/sk-ismail/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#experience">Experience</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Shaik Ismail. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
