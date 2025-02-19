@@ -1,5 +1,5 @@
 # My_Portfolio
-# My Portfolio
+
 
 This is my personal portfolio website built using HTML, CSS, and JavaScript. It showcases my skills, experience, and projects, providing visitors with an overview of my work and how to contact me.
 
@@ -44,12 +44,6 @@ My_Portfolio/
    ```
 2. Open `index.html` in your browser.
 
-## 📸 Screenshots
-### Home Page
-![Home Page](./assets/home.png)
-
-### Projects Section
-![Projects](./assets/projects.png)
 
 ## 📬 Contact Me
 - **Email**: [sk.ismail0906@gmail.com](mailto:sk.ismail0906@gmail.com)
